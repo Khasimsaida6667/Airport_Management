@@ -1,0 +1,43 @@
+.sidebar {
+    width: 150px;
+    background-color: #ffffff;
+    padding: 1em;
+    margin-left: 20px;
+    height: 100vh;
+    border-right:3px solid  rgb(248, 245, 245) ;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 0.5em 0;
+    margin-left:10px;
+     margin-bottom: 10px;
+  }
+  .sidebar ul li:hover{
+     background-color: rgb(172, 169, 169);
+     font-weight: bold;
+     /* margin-left: 20px; */
+     margin-bottom: 20px;
+     border-radius: 10px;
+  }
+  
+  .sidebar ul ul {
+    padding-left: 1em;
+  }
+  .te{
+    text-align: center;
+    background-color: rgb(172, 169, 169);
+    border-radius: 10px;
+    
+  }
+  .te1{
+    gap: 10px;
+  }
+
+  .icon-home::before { content: '🏠'; }
+.icon-dashboard::before { content: '📊'; }
+  
